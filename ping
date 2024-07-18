@@ -1,0 +1,5 @@
+- name: My first Ansible play
+  hosts: all    # Targets the "all" group
+  tasks:
+    - name: Checking availability with ping
+      ansible.builtin.ping:
